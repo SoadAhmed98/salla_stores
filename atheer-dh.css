@@ -685,6 +685,9 @@ html.dark .reviews__text ,html.dark .reviews__author-name{
   .s-block--stats{
     display: none;
   }
+  .s-button-text,.product-card--filled-normal-cart .product-card__normal-cart__btn .s-button-btn i{
+    color:var(--text-dark) !important;
+  }
 }
 
 @media(max-width:1024px){
@@ -708,8 +711,5 @@ html.dark .reviews__text ,html.dark .reviews__author-name{
 @media (min-width:1024px){
   .mobile-menu {
   margin-right: 10rem;
-  }
- html.dark .s-button-text{
-    color:var(--text-dark) !important;
   }
 }
