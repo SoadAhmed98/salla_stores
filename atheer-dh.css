@@ -709,7 +709,7 @@ html.dark .reviews__text ,html.dark .reviews__author-name{
   .mobile-menu {
   margin-right: 10rem;
   }
-  .s-button-text{
+ html.dark .s-button-text{
     color:var(--text-dark) !important;
   }
 }
